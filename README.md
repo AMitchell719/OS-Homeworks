@@ -5,7 +5,7 @@ These programs require you to run them on a Linux/Mac environment as they make u
 
 # An example of compiling and running from terminal:
 
-$ cpp scheduler.cpp -o main
+$ c++ scheduler.cpp -o main
 
 $ ./main < input.txt
 
