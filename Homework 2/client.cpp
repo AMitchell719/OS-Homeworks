@@ -36,7 +36,6 @@ int main(int argc, char *argv[])
         exit(1);
     }
 
-    // what to put as hostname??
     server = gethostbyname(argv[1]);
 
     if (server == NULL)
