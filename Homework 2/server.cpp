@@ -32,10 +32,7 @@ int main(int argc, char *argv[])
         request_array[counter] = request;
         counter++;
     }
-
-    // cout << portno << endl;
-
-    // Socket setup code provided by the gran Señor Carlos Rincon, ¡un hombre con gran estilo!
+    
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
 
     if (sockfd < 0)
