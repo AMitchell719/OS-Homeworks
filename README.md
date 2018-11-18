@@ -14,6 +14,7 @@ Makes use of the fork system call
 
 # Homework 2
 Makes use of the fork and pipe system calls, as well as includes client & server programs
+
 You will need to compile each program separately and run them on two terminal windows (or one if you know how)
 
 # Homework 3
