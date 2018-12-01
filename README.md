@@ -18,4 +18,4 @@ Makes use of the fork and pipe system calls, as well as includes client & server
 You will need to compile each program separately and run them on two terminal windows (or one if you know how)
 
 # Homework 3
-Makes use of mutual exclusions (mutexes), conditional variables and posix semaphores
+Makes use of mutual exclusions (mutexes), conditional variables and posix threads. You must link pthead with -pthread when compiling
