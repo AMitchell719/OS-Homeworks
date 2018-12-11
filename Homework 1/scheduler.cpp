@@ -111,6 +111,7 @@ int main()
 
     // Display scheduling queue contents
     cout << "Scheduling Queue:" << endl;
+    
     for (int i = 0; i < pid; i++)
     {
         cout << "Process ID: " << myProcess[i].id << endl;
@@ -127,26 +128,25 @@ int main()
             // Print the information, but check if it's split
             if(myProcess[i].isSplit == false)
             {
-                cout << "PID " << myProcess[i].id << ": Execution Time: " << myProcess[i].exectime <<
-                ", Priority: " << myProcess[i].priority << endl;
+                cout << "PID " << myProcess[i].id << ": Execution Time: " << myProcess[i].exectime 
+                     << ", Priority: " << myProcess[i].priority << endl;
                 cout << "Process " << myProcess[i].id << " has finished executing" << endl << endl;
             }
 
             // Print different information for the process that isn't split
             else
             {
-                cout << "PID " << myProcess[i].id << ": Execution Time: " << myProcess[i].exectime <<
-                ", Priority: " << myProcess[i].priority << endl << endl;
+                cout << "PID " << myProcess[i].id << ": Execution Time: " << myProcess[i].exectime 
+                     << ", Priority: " << myProcess[i].priority << endl << endl;
             }
+            
             // Exit out of child
             _exit(0);
         }
 
         wait(NULL);
     }
-
-    cin.get();
+    
     sleep(10);
-
     return 0;
 }
