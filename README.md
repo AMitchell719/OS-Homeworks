@@ -1,4 +1,4 @@
-# OS-Homeworks
+# OS Homeworks
 A repository featuring my OS homeworks
 
 These programs require you to run them on a Linux/Mac environment as they make use of system calls such as fork, pipefd, mutexes, and client/server connection calls. They will need to be run from the command prompt using input redirection from a file. This file should follow the format of the file described in each homeworks respective PDF instruction file.
