@@ -63,11 +63,11 @@ void *channel_thread(void *family_void_ptr)
 			case 2:
                 	CHANNEL = "BA";
                 	pthread_cond_signal(&BA); // wake up first item in BA queue
-                		break;
+				break;
 				
 			case 3:
                 	CHANNEL = "NONE";
-               			break;
+				break;
 		}
 
 		cout << "The current direction of the channel is: " << CHANNEL << endl;
