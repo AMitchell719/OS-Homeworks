@@ -223,7 +223,7 @@ int main()
 
     pthread_t c_thread; // channel thread
     pthread_t p_thread; // packet thread
-   	pthread_mutex_init(&bsem, NULL); // Initialize access to 1
+    pthread_mutex_init(&bsem, NULL); // Initialize access to 1
     pthread_mutex_init(&asem, NULL); // Initialize access to 1
 
     // Counters for sent packets
